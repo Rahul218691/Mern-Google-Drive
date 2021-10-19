@@ -1,0 +1,56 @@
+.list__cards{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.list__cards .card{
+	margin: 0.5rem;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.income__graph .card{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.income__graph .card .card-body .card-title{
+	text-align: center;
+}
+
+
+.income__graph .card .card-body .card-subtitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.income__graph .card .card-body .card-subtitle .form-check{
+	display: flex;
+	align-items: center;
+	margin: 0.5rem;
+}
+
+.income__graph .card .card-body .card-text{
+	text-align: center;
+}
+
+.admin__dashboard__main .row{
+	margin-top: 1rem;
+}
+
+.search__filter{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.transact__table{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.paginate__btn button{
+	margin: 0.5rem;
+}

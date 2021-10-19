@@ -1,0 +1,10 @@
+export {default as Login} from './auth/Login';
+export {default as Register} from './auth/Register';
+export {default as Home} from './home/Home';
+export {default as VerifyAccount} from './auth/VerifyAccount';
+export {default as ForgotPassword} from './auth/ForgotPassword';
+export {default as Profile} from './user/Profile';
+export {default as SubFolders} from './home/SubFolders';
+export {default as Settings} from './user/Settings';
+export {default as NotFound} from './NotFound';
+export {default as AdminDashboard} from './admin/Dashboard';

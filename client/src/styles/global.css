@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background: #f8f9fa;*/
+}
+
+.dropdown-toggle::after{
+	display: none;
+}
+
+.main__block{
+	padding-top: 60px;
+}
+
+@import url('./header.css');
+@import url('./auth.css');
+@import url('./main.css');
+@import url('./settings.css');
+@import url('./admin.css');
+
+@media only screen and (max-width: 600px) {
+.wrapper__container{
+	flex-direction: column;
+}
+.breadcrum__header button{
+	display: block;
+}
+.folder__container div,
+.file__container div{
+	width: 100%;
+}
+}

@@ -1,0 +1,115 @@
+.wrapper__container{
+	display: flex;
+}
+.sidebar__wrapper{
+	flex: 0.2;
+	margin-right: 1rem;
+}
+
+.wrapper__content{
+	flex: 1;
+}
+
+.sidebar__wrapper ul > li{
+	cursor: pointer;
+	text-align: center;
+}
+
+.breadcrum__header ol.breadcrumb{
+	display: flex;
+	align-items: center;
+}
+
+.breadcrum__header button{
+	outline: none;
+	border: none;
+	margin-right: 1rem;
+	display: none;
+}
+
+.folder__container,
+.file__container{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.folder__container div,
+.file__container div{
+	margin-right: 1rem;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.activationcard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.activationcard__body{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;	
+}
+
+.sidebar__wrapper ul > li > a{
+	text-decoration: none;
+	color: black;
+}
+
+.profileImage{
+	border-radius: 50%;
+	object-fit: cover;
+	height: 10rem;
+}
+
+.action__bar{
+	background: #f8f9fa;
+	padding: .5rem;
+	width: 100%;
+}
+
+.action__bar span{
+	font-size: 2rem;
+	cursor: pointer;
+	margin: 1rem;
+}
+
+.folderlinks{
+	color: black;
+	text-decoration: none;
+}
+
+.video__container{
+	width: 100%;
+}
+
+.imagemodal__container{
+	width: 300px;
+	object-fit: cover;
+}
+
+.folder__container div{
+	width: 10rem;
+}
+
+.folder__container .card .card-body{
+	display: flex;
+	justify-content: space-between;
+}
+
+.pillsbtn button{
+	margin: 0.1rem;
+}
+
+.successCheck{
+	color: green;
+	font-size: 20px;
+}
+
+.failureCheck{
+	color: red;
+	font-size: 20px;
+}
